@@ -78,8 +78,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: ror_production
-  username: ror
-  password: <%= ENV['ROR_DATABASE_PASSWORD'] %>
+#production:
+#  <<: *default
+#  database: ror_production
+#  username: ror
+#  password: <%= ENV['ROR_DATABASE_PASSWORD'] %>

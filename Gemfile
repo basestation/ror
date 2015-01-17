@@ -32,6 +32,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Use Bootstrap for Core CSS Style Library
+gem 'bootstrap-sass', '~> 3.3.1'
+
+# Bootstrap requires the use of Autoprefixer to add browser vendor prefixes automatically.
+gem 'autoprefixer-rails'
+
+# Use Font Awesome for Core Icon Style Library
+gem 'font-awesome-sass', '~> 4.2.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -42,4 +51,3 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
